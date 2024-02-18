@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./beckro.jpg");
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+    background-color: #007BFF;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  section {
+    margin: 20px 0;
+    width: 600px;
+    text-align: left;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #FFF;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: end;
+  }
+  
+  #overview{
+    display: flex;
+  }
+  
+  #gameplay{
+    display: flex;
+  }
+  
+  #creatures{
+    display: flex;
+  }
+  
+  #tips{
+    display: flex;
+  }
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 85vh;
+  }
+  h2 {
+    color: white;
+    margin-right: 50px;
+  }
+  p {
+    color: white;
+    font-size: 20px;
+  
+  }
+  
